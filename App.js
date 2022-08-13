@@ -18,6 +18,7 @@ import SubwayMapQTwo from './components/SubwayMapQTwo';
 import SubwayMapQThree from './components/SubwayMapQThree';
 import SubwayMapQFour from './components/SubwayMapQFour';
 import SubwayMapQFive from './components/SubwayMapQFive';
+import HomeButton from "./components/HomeButton";
 
 
 
@@ -53,6 +54,7 @@ export default function App() {
       { state === "subwayMapQThree" && <SubwayMapQThree/> }
       { state === "subwayMapQFour" && <SubwayMapQFour/> }
       { state === "subwayMapQFive" && <SubwayMapQFive/> }
+      { state === "homebutton" && <HomeButton/> }
 
       {/* <ExperienceScreen/> */}
       {/* <SubwayScreen/> */}
@@ -66,6 +68,7 @@ export default function App() {
       {/* <SubwayMapQThree/> */}
       {/* <SubwayMapQFour/> */}
       {/* <SubwayMapQFive/> */}
+      {/* <HomeButton /> */}
 
       
 

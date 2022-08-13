@@ -50,7 +50,7 @@ function SubwayMapQFive () {
                 </View>
             </View>
 
-            <Button title="Next" onPress={() => window.settingState("subwayMapQResults")}/>
+            <Button title="Next" onPress={() => window.settingState("homebutton")}/>
             <Text style={subwayMapQFiveStyles.emptyText}></Text>
         </ScrollView>
     )
